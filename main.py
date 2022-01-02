@@ -9,7 +9,6 @@ def main():
     stockfish = config['lichess']['STOCKFISH']
 
     bot = stockfish(stockfish, level=1, api_key=api_key)
-    # bot = RandomBot(api_key=api_key)
     bot.run()
 
 
